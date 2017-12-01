@@ -20,7 +20,7 @@ public class ExitDoorLoadScene : MonoBehaviour
     {
         if (obj.transform.name == "Perso")
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(2);
         }
     }
 
