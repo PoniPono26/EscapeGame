@@ -23,8 +23,7 @@ public class RecupKey : MonoBehaviour
         {
             
             obj.gameObject.GetComponent<KeysScript>().AddKey();
-            // if (obj.gameObject.GetComponent<KeysScript>().CanOpenDoor()){
-            //open door
+            
             Destroy(gameObject);
         }
     }
